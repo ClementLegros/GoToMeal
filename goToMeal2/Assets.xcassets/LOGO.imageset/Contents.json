@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "GoToMeal.png",
+      "filename" : "gotomealpicturelogo.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "gotomealpicturelogo-1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "gotomealpicturelogo-2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
