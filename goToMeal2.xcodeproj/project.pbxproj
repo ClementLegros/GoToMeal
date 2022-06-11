@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		258E32CC28522D890042F1C3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258E32CB28522D890042F1C3 /* LoginViewController.swift */; };
 		A17AEA87283D0B6E005E2D82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17AEA86283D0B6E005E2D82 /* AppDelegate.swift */; };
 		A17AEA89283D0B6E005E2D82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17AEA88283D0B6E005E2D82 /* SceneDelegate.swift */; };
 		A17AEA8B283D0B6E005E2D82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17AEA8A283D0B6E005E2D82 /* ViewController.swift */; };
@@ -17,7 +18,6 @@
 		A17AEAA1283D0B70005E2D82 /* goToMeal2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17AEAA0283D0B70005E2D82 /* goToMeal2Tests.swift */; };
 		A17AEAAB283D0B70005E2D82 /* goToMeal2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17AEAAA283D0B70005E2D82 /* goToMeal2UITests.swift */; };
 		A17AEAAD283D0B70005E2D82 /* goToMeal2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17AEAAC283D0B70005E2D82 /* goToMeal2UITestsLaunchTests.swift */; };
-		A17AEABA283D0BDB005E2D82 /* NouveauViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17AEAB9283D0BDB005E2D82 /* NouveauViewController.swift */; };
 		A18298EF2850EE71003F9FC5 /* Plat.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18298EE2850EE71003F9FC5 /* Plat.swift */; };
 		A18298F12850EEDC003F9FC5 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18298F02850EEDC003F9FC5 /* ScannerViewController.swift */; };
 		A1F89E642845FD310048C6A8 /* AccueilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F89E632845FD310048C6A8 /* AccueilViewController.swift */; };
@@ -41,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		258E32CB28522D890042F1C3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A17AEA83283D0B6E005E2D82 /* goToMeal2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = goToMeal2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17AEA86283D0B6E005E2D82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A17AEA88283D0B6E005E2D82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,7 +56,6 @@
 		A17AEAA6283D0B70005E2D82 /* goToMeal2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = goToMeal2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17AEAAA283D0B70005E2D82 /* goToMeal2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goToMeal2UITests.swift; sourceTree = "<group>"; };
 		A17AEAAC283D0B70005E2D82 /* goToMeal2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goToMeal2UITestsLaunchTests.swift; sourceTree = "<group>"; };
-		A17AEAB9283D0BDB005E2D82 /* NouveauViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NouveauViewController.swift; path = ../../GoToMeal/GoToMeal/NouveauViewController.swift; sourceTree = "<group>"; };
 		A18298EE2850EE71003F9FC5 /* Plat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plat.swift; sourceTree = "<group>"; };
 		A18298F02850EEDC003F9FC5 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
 		A1F89E632845FD310048C6A8 /* AccueilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccueilViewController.swift; sourceTree = "<group>"; };
@@ -112,7 +112,6 @@
 				A17AEA86283D0B6E005E2D82 /* AppDelegate.swift */,
 				A17AEA88283D0B6E005E2D82 /* SceneDelegate.swift */,
 				A17AEA8A283D0B6E005E2D82 /* ViewController.swift */,
-				A17AEAB9283D0BDB005E2D82 /* NouveauViewController.swift */,
 				A17AEA8C283D0B6E005E2D82 /* Main.storyboard */,
 				A17AEA92283D0B6F005E2D82 /* Assets.xcassets */,
 				A17AEA94283D0B6F005E2D82 /* LaunchScreen.storyboard */,
@@ -121,6 +120,7 @@
 				A1F89E632845FD310048C6A8 /* AccueilViewController.swift */,
 				A18298EE2850EE71003F9FC5 /* Plat.swift */,
 				A18298F02850EEDC003F9FC5 /* ScannerViewController.swift */,
+				258E32CB28522D890042F1C3 /* LoginViewController.swift */,
 			);
 			path = goToMeal2;
 			sourceTree = "<group>";
@@ -273,8 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				258E32CC28522D890042F1C3 /* LoginViewController.swift in Sources */,
 				A17AEA91283D0B6E005E2D82 /* goToMeal2.xcdatamodeld in Sources */,
-				A17AEABA283D0BDB005E2D82 /* NouveauViewController.swift in Sources */,
 				A17AEA8B283D0B6E005E2D82 /* ViewController.swift in Sources */,
 				A17AEA87283D0B6E005E2D82 /* AppDelegate.swift in Sources */,
 				A17AEA89283D0B6E005E2D82 /* SceneDelegate.swift in Sources */,

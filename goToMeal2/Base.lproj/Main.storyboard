@@ -113,10 +113,10 @@
             </objects>
             <point key="canvasLocation" x="-446.37681159420293" y="-271.20535714285711"/>
         </scene>
-        <!--Nouveau View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="DgN-0y-X6H">
             <objects>
-                <viewController id="ZEB-s6-XlF" customClass="NouveauViewController" customModule="goToMeal2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ZEB-s6-XlF" customClass="LoginViewController" customModule="goToMeal2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="W3g-fz-M6c">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -255,7 +255,7 @@
         <!--Scanner View Controller-->
         <scene sceneID="yWA-ll-lPi">
             <objects>
-                <viewController wantsFullScreenLayout="YES" id="Fsp-tm-7rC" customClass="ScannerViewController" customModule="GoToMeal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController wantsFullScreenLayout="YES" id="Fsp-tm-7rC" customClass="ScannerViewController" customModule="goToMeal2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="k81-Xh-Xkr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
